@@ -153,9 +153,18 @@ address{
 .whatIDoFlex div{
     background-color: white;
     margin-left: 30px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 10px 20px 4px #00000015;
+}
+.whatIDoFlex div p{
+    text-align: justify;
+    color: #000;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.whatIDoFlex div h4{
+    font-size: 25px;
 }
 .whatIdo-flex-1{
     flex: 1;
