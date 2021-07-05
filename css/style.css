@@ -208,3 +208,9 @@ address{
     margin: 0;
     padding: 0;
 }
+footer{
+    text-align: center;
+    font-weight:bold;
+    opacity: 0.8;
+    padding: 20px 0 5px;
+}
