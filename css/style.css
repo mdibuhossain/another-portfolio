@@ -126,7 +126,10 @@ address{
 .aboutMeDescription h3{
     margin-top: 10px;
 }
+.aboutMeDescription p{
+    text-align: justify;
+}
 .aboutMeDescription{
     width: 500px;
-    margin: 0 40px;
+    margin: 0 40px 150px;
 }
