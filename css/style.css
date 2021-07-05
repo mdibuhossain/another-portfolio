@@ -175,3 +175,26 @@ address{
 .whatIdo-flex-3{   
     flex: 1;
 }
+.eduWordFlex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.eduWordFlex div{
+    width: 80%;
+    margin-bottom: 35px;
+    /* margin-left: -30px; */
+}
+.eduWordFlex h2{
+    font-size: 35px;
+    margin-left: 30px;
+    width: 90%;
+    padding: 25px 0;
+}
+.eductaionWorkSection{
+    display: flex;
+}
+.eduWorkTitle{
+    margin: 0;
+    padding: 0;
+}
