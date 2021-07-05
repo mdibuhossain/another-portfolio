@@ -133,3 +133,36 @@ address{
     width: 500px;
     margin: 0 40px 150px;
 }
+.whatIDo
+{
+    width: 1150px;
+    margin: -20px auto 100px;
+
+}
+.whatIDo-title h3{
+    display: inline-block;
+}
+.whatIDo-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.whatIDoFlex{
+    display: flex;
+    justify-content: center;
+}
+.whatIDoFlex div{
+    background-color: white;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px 4px #00000015;
+}
+.whatIdo-flex-1{
+    flex: 1;
+}
+.whatIdo-flex-2{
+    flex: 1;
+}
+.whatIdo-flex-3{   
+    flex: 1;
+}
