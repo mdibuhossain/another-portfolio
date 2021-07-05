@@ -16,7 +16,7 @@ h1{
     font-size: 65px;
 }
 h2{
-    font-size: 55px;
+    font-size: 60px;
     margin-bottom: 0.2em;
 }
 h3{
@@ -31,11 +31,12 @@ h4
 .heroContainer{
     display: flex;
     justify-content: center;
-    margin-top: 150px;  
+    flex-direction: row-reverse;
+    margin-top: 250px;  
 }
 .halfWidth{
     width: 500px;
-    margin: 0 80px;
+    margin: 0 130px;
 }
 .heroInfo{
     list-style: none;
@@ -52,12 +53,12 @@ address{
     margin: 10px 0px;
 }
 #helloShape{
-    margin-top: 90px;
+    margin-top: 50px;
 }
 #helloShape span{
-    padding: 10px 30px;
+    padding: 10px 35px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     background-color: #a97afd;
     color: white;
     font-weight: 700;
@@ -72,21 +73,21 @@ address{
     text-align: center;
 }
 .secondLayerBorderImg{
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
     margin: auto;
     border: 20px solid rgba(0, 0, 0, 0.07);
     border-radius: 50%;
 }
 .secondLayerBorderImg img{
-    width: 360px;
-    height: 360px;
+    width: 340px;
+    height: 340px;
     text-align: center;
     border: 20px solid rgba(0, 0, 0, 0.17);
     border-radius: 50%;
 }
 .aboutImg{
-    width: 90%;
+    width: 100%;
 }
 .linkButton{
     color: white;
@@ -95,5 +96,37 @@ address{
     background-color: #a97afd;
     padding: 10px 35px;
     border-radius: 30px;
-    margin-top: 80px;
+    margin-top: 90px;
+}
+.buttonContainer{
+    margin-top: 40px;
+}
+.aboutMe-skills{
+    margin: 0;
+    margin-left: -10px;
+    padding: 0;
+}
+.aboutMe-skills ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutMe-skills ul li{
+    padding: 5px 8px;
+
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(46, 46, 46, 0.3);
+    border-radius: 4px;
+    font-weight: 500;
+}
+.aboutMeDescription h3{
+    margin-top: 10px;
+}
+.aboutMeDescription{
+    width: 500px;
+    margin: 0 40px;
 }
